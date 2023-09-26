@@ -28,31 +28,41 @@ export default function Intro() {
               width="195"
               height="195"
               priority={true}
-              className="rounded-full h- h-48 w-48 border-[0.35rem] object-cover border-white shadow-2xl"
+              className="rounded-full h-48 w-48 border-[0.35rem] object-cover border-white shadow-2xl"
               alt="Brian's profile photo."
             />
           </motion.div>
-          <motion.span
+          {/* <motion.span
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "spring", stiffness: 100, delay: 0.1, duration: 0.7 }}
-            className="absolute top-[8.5rem] left-[-0.5rem] text-6xl"
+            className="absolute top-[8.5rem] left-[-0.5rem] text-6xl dark:!opacity-100"
           >
             ☕
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
       <motion.h1
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        className="mb-10 mt-8 px-4 !text-5xl font-medium !leading-[1.5] sm:text-3xl"
+      >
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        Hi, <span className="font-bold text-violet-800">I'm Brian</span>.
+      </motion.h1>
+      <motion.p
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
         className="mb-10 mt-16 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
       >
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Hi, <span className="font-bold text-indigo-500">I'm Brian</span>. I'm a{" "}
-        <span className="font-bold text-pink-500/60 underline underline-offset-8">web-developer</span> transitioning
-        from a career as a petroleum engineer to the tech industry. My current focus is building{" "}
-        <span className="italic">websites and apps</span> using React and Next.js.
-      </motion.h1>
+        I'm a <span className=" text-pink-500  underline underline-offset-8">web-developer</span> transitioning from a
+        career in petroleum engineering to the tech industry.{" "}
+        <p>
+          I am currently building my portfolio of <span className="italic">websites and apps</span> using React
+          (Next.js).
+        </p>
+      </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}

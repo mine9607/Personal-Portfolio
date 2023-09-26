@@ -1,7 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaChalkboardTeacher, FaNodeJs } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import { BiLogoMongodb } from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
+import { IoAirplaneOutline } from "react-icons/io5";
 import Trello from "@/public/trello-clone.png";
 import Netflix from "@/public/netflix-clone.png";
 import SCA from "@/public/cuppingForm-lg.png";
@@ -35,27 +39,104 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description: "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Graduated - Petroleum Engineering",
+    tech: "",
+    company: "University of Oklahoma",
+    location: "",
+    description:
+      "Graduated with a Master's in Petroleum Engineering and began work at BP in the Anadarko Basin of Texas.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2012",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Staff Production Engineer",
+    tech: "",
+    company: "BP -> Chesapeake Energy",
+    location: "",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked for 12+ years as a petroleum engineer for BP and later Chesapeake Energy.  During this time, I led several successful multi-disciplinary intiatives including a fundamental revision of production methods in the Haynesville Shale.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2012 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Moved to South America",
+    tech: "",
+    company: "",
+    location: "",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "In September 2021, I moved to Colombia to pursue a personal dream of learning Spanish and living abroad.",
+    icon: React.createElement(IoAirplaneOutline),
+    date: "September 2021",
+  },
+  {
+    title: "English Teacher",
+    tech: "",
+    company: "Profesores Extranjeros",
+    location: "Medellin, Colombia",
+    description:
+      "I quickly found work teaching English at Profesores Extranjeros and began teaching classes to local software developers.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "2021-Present",
+  },
+  {
+    title: "Enrolled in Full-Stack Bootcamp",
+    tech: "",
+    company: "App Brewery",
+    location: "",
+    description:
+      "Online Full-Stack bootcamp covering the fundamentals from HTML, CSS, Javascript as well as intermediate to advanced concepts such as: building RESTful APIs and full-stack app development using the MERN stack.",
+    icon: React.createElement(BiLogoMongodb),
+    date: "July 2023",
+  },
+  {
+    title: "My First App!",
+    tech: "(Express.js, Node.js, MongoDB)",
+    company: "",
+    location: "",
+    description:
+      "Built a web app to mimic an SCA international sensory evalution form and connected it to a MongoDB database.  The app allows coffee profesionals to maintain a record of coffee quality for QA/Purchasing decisions.  The app handles user registration, login and authentication with Passport.",
+    icon: React.createElement(SiExpress),
+    date: "August 2023",
+  },
+  {
+    title: "Built Netflix Clone",
+    tech: "(React.js + Stripe)",
+    company: "",
+    location: "",
+    description:
+      "Built beautiful Netflix clone with React.js.  Google's Firebase/Firestore handles user-registration, login and authentication as well as subscription information.  A fully-functional Stripe payment portal was integrated to offer a more realistic user-experience.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "August 2023",
+  },
+  {
+    title: "Built Trello Clone & Personal Portfolio",
+    tech: "(React.js / Next.js)",
+    company: "",
+    location: "",
+    description:
+      "Built a fully-functional Trello clone with drag and drop functionality.  State management in the Trello app is implemented using Zustand's stream-lined state management library and OpenAI's public API was used to integrate a simple ChatGPT 3-Turbo functionality.  After finishing I built out this personal website to showcase my work and begin job-hunting.",
+    icon: React.createElement(FaNodeJs),
+    date: "September 2023",
+  },
+  {
+    title: "In-Progress: Learning",
+    tech: "",
+    company: "",
+    location: "",
+    description:
+      "I am continuing my personal education and learning through enrollment in online Udemy Courses: COMPLETE JAVASCRIPT - ZERO TO EXPERT; DOCKER MASTERY W/ KUBERNETES + SWARM; REACT - COMPLETE GUIDE 2023",
+    icon: React.createElement(FaComputer),
+    date: "September 2023 - Present",
+  },
+  {
+    title: "In-Progress: Apps",
+    tech: "(React.js / Next.js)",
+    company: "",
+    location: "",
+    description:
+      "I have several personal projects that are in various stages of progress: a WEIGHT LOSS APP (with meal-planning and calorie-tracking); a TEACHER REPORT APP for Profesores Extranjeros to standardize end-of-month teacher reports and a RESUME WRITING APP with drag/drop sections and ChatGPT functionality.",
+    icon: React.createElement(FaComputer),
+    date: "September 2023 - Present",
   },
 ] as const;
 

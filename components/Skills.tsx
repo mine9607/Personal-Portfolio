@@ -34,9 +34,11 @@ export default function Skills() {
             }}
             custom={index}
             key={index}
-            className=" transform bg-white dark:bg-white/10  dark:text-white/70  borderBlack rounded-xl px-5 py-3 shadow-md hover:border-black/30 hover:text-gray-700 dark:hover:text-white dark:border-white/10"
+            className=" transform bg-white dark:text-white/60  dark:bg-white/10  borderBlack rounded-xl px-5 py-3 shadow-md hover:border-black/30 hover:text-gray-700 dark:hover:text-white dark:border-white/10"
           >
-            {skill}
+            <div className="font-semibold dark:bg-gradient-to-r from-green-300 via-purple-400 to-teal-400 dark:text-transparent dark:bg-clip-text">
+              {skill}
+            </div>
           </motion.li>
         ))}
       </ul>

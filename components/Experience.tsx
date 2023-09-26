@@ -5,7 +5,6 @@ import SectionHeading from "./SectionHeading";
 import { useSectionInView } from "@/lib/hooks";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaRegIdBadge } from "react-icons/fa";
 import { useTheme } from "@/store/theme-context";
 
 export default function Experience() {
@@ -13,7 +12,7 @@ export default function Experience() {
   const { theme } = useTheme();
 
   return (
-    <section className="scroll-mt-24 sm:mb-0" id="experience" ref={ref}>
+    <section className=" w-full scroll-mt-24 sm:mb-0" id="experience" ref={ref}>
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((experience, index) => (
@@ -37,9 +36,13 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{experience.title}</h3>
-              <p className="font-normal !mt-0">{experience.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">{experience.description}</p>
+              <h3 className="text-xl font-semibold dark:bg-gradient-to-r from-green-300 via-purple-400 to-teal-400 dark:text-transparent dark:bg-clip-text">
+                {experience.title}
+              </h3>
+              <p className="font-normal !mt-0 ">{experience.tech}</p>
+              <h4 className="dark:text-white/60">{experience.company}</h4>
+              <p className="font-normal !mt-0 dark:text-white/60">{experience.location}</p>
+              <p className=" !mt-2 !font-normal text-gray-700 dark:text-white/75">{experience.description}</p>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
