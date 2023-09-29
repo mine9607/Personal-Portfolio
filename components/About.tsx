@@ -46,7 +46,7 @@ export default function About() {
         received my <span className="">Q-Grader</span> certification in 2022. When I'm not coding, I stay busy running
         my small coffee business based in Medellin, baking sourdough bread, looking after my beehives and playing with
         my dogs. I also enjoy <span className="font-medium">learning new things</span>. I am currently learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also learning how to play the guitar.
+        <span className="font-medium">history and philosophy</span>. I&apos;m also learning how to play the guitar.
       </p>
     </motion.section>
   );

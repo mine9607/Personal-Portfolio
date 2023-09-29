@@ -47,8 +47,7 @@ export default function Intro() {
         animate={{ opacity: 1, x: 0 }}
         className="mb-10 mt-8 px-4 !text-5xl font-medium !leading-[1.5] sm:text-3xl"
       >
-        {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Hi, <span className="font-bold text-violet-800 dark:text-[#75FFC5]">I'm Brian</span>.
+        Hi, <span className="font-bold text-violet-800 dark:text-[#75FFC5]">I&apos;m Brian</span>.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, x: -100 }}
@@ -56,8 +55,8 @@ export default function Intro() {
         className="mb-10 mt-16 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
       >
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        I'm a <span className=" text-[#C575FF]  underline underline-offset-8">web-developer</span> transitioning from a
-        career in petroleum engineering to the tech industry.{" "}
+        I&apos;m a <span className=" text-[#C575FF]  underline underline-offset-8">web-developer</span> transitioning
+        from a career in petroleum engineering to the tech industry.{" "}
         {/* I am currently building my portfolio of <span className="italic">websites and apps</span> using React
           (Next.js). */}
       </motion.p>
