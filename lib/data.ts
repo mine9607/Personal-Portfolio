@@ -147,7 +147,7 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: Trello,
-    Url: "https://trello-clone-nextjs13-nz0ivkim7-crunchypb-s-team.vercel.app/",
+    websiteURL: "https://mytrelloclone.vercel.app/",
   },
   {
     title: "SCA Cupping Form",
@@ -155,7 +155,7 @@ export const projectsData = [
       "A web app for coffee companies to evaluate and store coffee data for purchasing decisions and traceability.  I built the full app as a server-side Express.js app which uses passport for authentication and a MongoDB on the back-end.",
     tags: ["Express", "Node.js", "MongoDB", "Passport", "Bootstrap"],
     imageUrl: SCA,
-    Url: "https://trello-clone-nextjs13-nz0ivkim7-crunchypb-s-team.vercel.app/",
+    websiteURL: "https://trello-clone-nextjs13-nz0ivkim7-crunchypb-s-team.vercel.app/",
   },
   {
     title: "Netflix Clone",
@@ -163,7 +163,7 @@ export const projectsData = [
       "Built a Netflix Clone using React.js.  The authentication and database are built using Firebase's Firestore. The clone has a fully functional Stripe payment portal built in to allow purchasing between subscription tiers",
     tags: ["React", "TypeScript", "Tailwind", "Firebase", "Stripe"],
     imageUrl: Netflix,
-    Url: "https://netflix-react-clone-bdde9.web.app",
+    websiteURL: "https://netflix-react-clone-bdde9.web.app",
   },
 ] as const;
 
