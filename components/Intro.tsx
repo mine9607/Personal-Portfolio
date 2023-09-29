@@ -48,7 +48,7 @@ export default function Intro() {
         className="mb-10 mt-8 px-4 !text-5xl font-medium !leading-[1.5] sm:text-3xl"
       >
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        Hi, <span className="font-bold text-violet-800">I'm Brian</span>.
+        Hi, <span className="font-bold text-violet-800 dark:text-[#75FFC5]">I'm Brian</span>.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, x: -100 }}
@@ -56,12 +56,10 @@ export default function Intro() {
         className="mb-10 mt-16 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
       >
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        I'm a <span className=" text-pink-500  underline underline-offset-8">web-developer</span> transitioning from a
+        I'm a <span className=" text-[#C575FF]  underline underline-offset-8">web-developer</span> transitioning from a
         career in petroleum engineering to the tech industry.{" "}
-        <p>
-          I am currently building my portfolio of <span className="italic">websites and apps</span> using React
-          (Next.js).
-        </p>
+        {/* I am currently building my portfolio of <span className="italic">websites and apps</span> using React
+          (Next.js). */}
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -84,7 +82,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/CV.pdf"
+          href="/BrianMiner-Resume.pdf"
           download
           className="flex items-center rounded-lg gap-3 borderBlack bg-white dark:bg-white/20 dark:text-gray-50 px-5 py-3 outline-none focus:scale-110 hover:scale-110 hover:text-gray-900 active:scale-105 transition"
         >

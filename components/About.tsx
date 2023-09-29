@@ -32,14 +32,14 @@ export default function About() {
         </span>{" "}
         and built my first app shortly after. <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I love the feeling of finally figuring out a solution to a problem.
-        <p>
-          {" "}
-          My core stack is{" "}
-          <span className=" font-semibold text-2xl dark:bg-gradient-to-r from-green-300 via-purple-400 to-teal-400 dark:text-transparent dark:bg-clip-text">
-            React, Next.js, Node.js, and MongoDB
-          </span>
-          .
-        </p>
+      </p>
+      <p className="mb-4 text-lg">
+        {" "}
+        My core stack is{" "}
+        <span className=" font-semibold text-2xl dark:bg-gradient-to-r from-green-300 via-purple-400 to-teal-400 dark:text-transparent dark:bg-clip-text">
+          React, Next.js, Node.js, and MongoDB
+        </span>
+        .
       </p>
       <p className="text-lg">
         <span className="italic">Aside from coding</span>, I am a coffee fanatic and certified coffee expert having
