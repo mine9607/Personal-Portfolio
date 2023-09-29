@@ -43,10 +43,9 @@ export default function About() {
       </p>
       <p className="text-lg">
         <span className="italic">Aside from coding</span>, I am a coffee fanatic and certified coffee expert having
-        received my <span className="">Q-Grader</span> certification in 2022. When I'm not coding, I stay busy running
-        my small coffee business based in Medellin, baking sourdough bread, looking after my beehives and playing with
-        my dogs. I also enjoy <span className="font-medium">learning new things</span>. I am currently learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&apos;m also learning how to play the guitar.
+        received my <span className="">Q-Grader</span> certification in 2022. When I&apos;m not coding, I stay busy
+        running my small coffee business based in Medellin, baking sourdough bread, looking after my beehives and
+        playing with my dogs.
       </p>
     </motion.section>
   );
