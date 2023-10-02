@@ -81,7 +81,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/BrianMiner-Resume.pdf"
+          href="/BrianMinerResume.pdf"
           download
           className="flex items-center rounded-lg gap-3 borderBlack bg-white dark:bg-white/20 dark:text-gray-50 px-5 py-3 outline-none focus:scale-110 hover:scale-110 hover:text-gray-900 active:scale-105 transition"
         >
